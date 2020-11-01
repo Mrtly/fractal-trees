@@ -4,28 +4,29 @@
   padding: 0;
   box-sizing: border-box
 }
+body {
+   background: whitesmoke;
+}
 canvas {
   position: absolute;
   background: whitesmoke;
 }
-img {
-  width: 3em;
-  cursor: pointer;
-  position: absolute;
-  bottom: 5%;
-  left: 70%;
-  z-index: 10;
-}
+
 .generate {
   font-family: 'mali';
   cursor: pointer;
   position: absolute;
-  bottom: 5%;
+  bottom: 15%;
   left: 25%;
-  z-index: 10;
-  padding: 5px 9px;
-  border-radius: 20px;
-  background: whitesmoke;
+  z-index: 1;
+  padding: 8px 10px;
+  border-radius: 50%;
+  color: brown;
+  border-color: brown;
   font-size: 20px;
-  overflow: hidden;
+  box-shadow: 0 0 10px black;
+}
+
+button {
+  transform: scale(2)
 }
